@@ -1,11 +1,11 @@
 package main
 
-import "fmt"
+// import "fmt"
 
-func main(){
+// func main(){
 
 
-	
+
 // var (letter string)
 // fmt.Print("Harf kiriting:")
 // fmt.Scanln(&letter)
@@ -29,4 +29,4 @@ func main(){
 	// var height int = 165
 	// var sum = kg%height
 	// fmt.Print(sum)
-}
+// }
