@@ -3,6 +3,12 @@ package main
 import "fmt"
 
 func main (){
+     b := (111%11 == 1 && 1*0 == 0) || !(0/1 == 1) || (3695/2 == 1847)
+	 fmt.Print(b)
+
+    // a := (!(true && false) || !(true || false))&&((true && false) && !(true || false))
+	// fmt.Print(a)
+
     // a := 5
 	// b := 5
 	// d := 5
