@@ -3,8 +3,28 @@ package main
 import "fmt"
 
 func main (){
-     b := (111%11 == 1 && 1*0 == 0) || !(0/1 == 1) || (3695/2 == 1847)
-	 fmt.Print(b)
+     var a int
+	 var b int
+	 var g string
+	 fmt.Println("Brinchi sonni kiriting")
+	 fmt.Scan(&a)
+	 fmt.Println("Ikkinchi sinni kiriting")
+	 fmt.Scan(&b)
+	 fmt.Println("Aperator kiriting")
+	 fmt.Scan(&g)
+
+	 if g == "+"{
+       fmt.Println(a+b)
+	 }else if g == "-"{
+		fmt.Println(a-b)
+	 }else if g == "*"{
+		fmt.Println(a*b)
+	 }else if g == "/"{
+		fmt.Println(a/b)
+	 }
+
+    //  b := (111%11 == 1 && 1*0 == 0) || !(0/1 == 1) || (3695/2 == 1847)
+	//  fmt.Print(b)
 
     // a := (!(true && false) || !(true || false))&&((true && false) && !(true || false))
 	// fmt.Print(a)
