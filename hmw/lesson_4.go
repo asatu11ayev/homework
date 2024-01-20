@@ -1,27 +1,29 @@
 package main
 
-import "fmt"
+// import "fmt"
 
-func main (){
-     var a int
-	 var b int
-	 var g string
-	 fmt.Println("Brinchi sonni kiriting")
-	 fmt.Scan(&a)
-	 fmt.Println("Ikkinchi sinni kiriting")
-	 fmt.Scan(&b)
-	 fmt.Println("Aperator kiriting")
-	 fmt.Scan(&g)
+// func main (){
+  
 
-	 if g == "+"{
-       fmt.Println(a+b)
-	 }else if g == "-"{
-		fmt.Println(a-b)
-	 }else if g == "*"{
-		fmt.Println(a*b)
-	 }else if g == "/"{
-		fmt.Println(a/b)
-	 }
+    //  var a int
+	//  var b int
+	//  var g string
+	//  fmt.Println("Brinchi sonni kiriting")
+	//  fmt.Scan(&a)
+	//  fmt.Println("Ikkinchi sinni kiriting")
+	//  fmt.Scan(&b)
+	//  fmt.Println("Aperator kiriting")
+	//  fmt.Scan(&g)
+
+	//  if g == "+"{
+    //    fmt.Println(a+b)
+	//  }else if g == "-"{
+	// 	fmt.Println(a-b)
+	//  }else if g == "*"{
+	// 	fmt.Println(a*b)
+	//  }else if g == "/"{
+	// 	fmt.Println(a/b)
+	//  }
 
     //  b := (111%11 == 1 && 1*0 == 0) || !(0/1 == 1) || (3695/2 == 1847)
 	//  fmt.Print(b)
@@ -68,4 +70,4 @@ func main (){
 	// b := 7
 	// a,b=b,a
 	// fmt.Print(a,b)
-}
+// }
