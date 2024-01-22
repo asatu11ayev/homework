@@ -1,9 +1,9 @@
 package main 
 
-import "fmt"
+// import "fmt"
 
-func main(){
-	
+// func main(){
+
     // a := 1
 	// switch a {
 	// case 1:
@@ -148,4 +148,4 @@ func main(){
 	// }else if  a%5==0{
 	// 	fmt.Println("BUZZ")
 	// }
-}
+// }
