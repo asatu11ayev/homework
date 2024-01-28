@@ -4,7 +4,6 @@ package main
 
 // func main() {
 
-
 //   n := 0
 //   fmt.Scan(&n)
 //   strings := make([]string, 0,n)
